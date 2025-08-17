@@ -8,6 +8,6 @@ export type Usuario = {
 };
 
 export type FieldType = {
-    label: string;
-    value: string;
+  label: string;
+  value: string;
 }
