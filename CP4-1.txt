@@ -1,0 +1,23 @@
+Curso: Tecnologia em Desenvolvimento de Sistemas - 2TDS-2025
+Professor: Fernando Pinéo Componente Curricular: Mobile Application Development
+Atividade01-TanQuery
+Orientações: · A tarefa poderá ser realizado em trio. · um deverá entregar o link do respositório. · Incluir os nomes dos integrantes no arq Readme. · Configurar o repo com público. · Peso (1,5)pontos no CP4 · Data de entrega: 17/08/2025 as 23:59h
+Consumindo uma API de usuários com TanStack Query no React Native
+Objetivo da atividade: Utilize o TanStack Query para consumir dados de uma API pública no React Native, exibindo os dados e lidando com estados de carregamento e erro.
+Recursos para serem utilizados:
+· React Native (com Expo) · TanStack Query (@tanstack/react-query) · API pública (https://jsonplaceholder.typicode.com/users)
+Enunciado da Atividade: Crie um aplicativo React Native simples que exiba uma lista de usuários obtidos da API https://jsonplaceholder.typicode.com/users, utilizando o TanStack Query.
+Seu app deve:
+1. Instalar e configurar o TanStack Query (QueryClient e QueryClientProvider) 2. Utilizar o hook useQuery para buscar os dados da API 3. Exibir o nome, email e cidade de cada usuário 4. Exibir mensagens de carregamento ("Carregando usuários...") e erro (ex: "Erro ao
+carregar usuários")
+O endpoint da API é https://jsonplaceholder.typicode.com/users
+
+Critérios de Avaliação:
+
+Critério TanStack Query corretamente instalado e configurado Hook useQuery utilizado corretamente Exibição dos dados na interface Tratamento de loading e erro Organização e legibilidade do código Total
+
+Pontos 2 pt 2 pt 3 pt 2 pt 1 pt 10 pt
+
+Opcional para alunos mais avançados: · Adicionar botão para refetch · Adicionar paginador (mesmo que falso) · Adicionar navegação entre telas
+
+
